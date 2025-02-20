@@ -1,4 +1,4 @@
-export default function Product({
+/* export default function Product({
   name,
   imgUrl = 'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder',
   price,
@@ -10,4 +10,4 @@ export default function Product({
       <p>Price: {price} credits</p>
     </div>
   );
-}
+} */

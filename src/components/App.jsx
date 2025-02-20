@@ -1,6 +1,7 @@
-import Product from './Product';
+/* import Product from './Product'; */
+import { Alert } from './Alert';
 
-export default function App() {
+/* export default function App() {
   return (
     <div>
       <h1>Best selling</h1>
@@ -16,5 +17,16 @@ export default function App() {
         price={14.29}
       />
     </div>
+  );
+} */
+
+export default function App() {
+  return (
+    <>
+      <Alert variant="info">Would you like to browse our recommended products?</Alert>
+      <Alert variant="error">There was an error during your last transaction</Alert>
+      <Alert variant="success">Payment received, thank you for your purchase</Alert>
+      <Alert variant="warning">Please update your profile contact information</Alert>
+    </>
   );
 }
